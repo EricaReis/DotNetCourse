@@ -1,5 +1,5 @@
 using System;
-using System.ComponentModel.DataAnnotation;
+using System.ComponentModel.DataAnnotations;
 
 namespace Api.Domain.Entities
 {
