@@ -1,3 +1,7 @@
+using Api.Domain.Entities;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Builders;
+
 namespace Api.Data.Mapping
 {
     public class UserMap : IEntityTypeConfiguration<UserEntity>
@@ -6,18 +10,17 @@ namespace Api.Data.Mapping
         {
             builder.ToTable("User");
 
-            builder.HasKey(p => p.Id);
+            builder.HasKey(u => u.Id);
 
             builder.HasIndex(u => u.Email)
-                .IsUnique();
+                   .IsUnique();
 
             builder.Property(u => u.Name)
-                .IsRequired()
-                .HasMaxLength(60);
+                   .IsRequired()
+                   .HasMaxLength(60);
 
             builder.Property(u => u.Email)
-                .HasMaxLength(100);
+                   .HasMaxLength(100);
         }
     }
-
 }

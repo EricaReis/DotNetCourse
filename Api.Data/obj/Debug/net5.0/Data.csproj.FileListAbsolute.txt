@@ -13,3 +13,6 @@
 /home/erica/Projetos/DotnetCourse/src/Api.Data/obj/Debug/net5.0/ref/Data.dll
 /home/erica/Projetos/DotnetCourse/src/Api.Data/obj/Debug/net5.0/Data.pdb
 /home/erica/Projetos/DotnetCourse/src/Api.Data/obj/Debug/net5.0/Data.genruntimeconfig.cache
+/home/erica/Projetos/DotnetCourse/src/Api.Data/bin/Debug/net5.0/Domain.dll
+/home/erica/Projetos/DotnetCourse/src/Api.Data/bin/Debug/net5.0/Domain.pdb
+/home/erica/Projetos/DotnetCourse/src/Api.Data/obj/Debug/net5.0/Data.csproj.CopyComplete
