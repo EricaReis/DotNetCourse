@@ -1,0 +1,12 @@
+/home/erica/Projetos/DotnetCourse/src/Api.CrossCutting/bin/Debug/net5.0/CrossCutting.deps.json
+/home/erica/Projetos/DotnetCourse/src/Api.CrossCutting/bin/Debug/net5.0/CrossCutting.dll
+/home/erica/Projetos/DotnetCourse/src/Api.CrossCutting/bin/Debug/net5.0/ref/CrossCutting.dll
+/home/erica/Projetos/DotnetCourse/src/Api.CrossCutting/bin/Debug/net5.0/CrossCutting.pdb
+/home/erica/Projetos/DotnetCourse/src/Api.CrossCutting/obj/Debug/net5.0/CrossCutting.csproj.AssemblyReference.cache
+/home/erica/Projetos/DotnetCourse/src/Api.CrossCutting/obj/Debug/net5.0/CrossCutting.GeneratedMSBuildEditorConfig.editorconfig
+/home/erica/Projetos/DotnetCourse/src/Api.CrossCutting/obj/Debug/net5.0/CrossCutting.AssemblyInfoInputs.cache
+/home/erica/Projetos/DotnetCourse/src/Api.CrossCutting/obj/Debug/net5.0/CrossCutting.AssemblyInfo.cs
+/home/erica/Projetos/DotnetCourse/src/Api.CrossCutting/obj/Debug/net5.0/CrossCutting.csproj.CoreCompileInputs.cache
+/home/erica/Projetos/DotnetCourse/src/Api.CrossCutting/obj/Debug/net5.0/CrossCutting.dll
+/home/erica/Projetos/DotnetCourse/src/Api.CrossCutting/obj/Debug/net5.0/ref/CrossCutting.dll
+/home/erica/Projetos/DotnetCourse/src/Api.CrossCutting/obj/Debug/net5.0/CrossCutting.pdb

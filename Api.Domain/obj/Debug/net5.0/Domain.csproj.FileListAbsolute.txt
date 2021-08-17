@@ -1,0 +1,12 @@
+/home/erica/Projetos/DotnetCourse/src/Api.Domain/bin/Debug/net5.0/Domain.deps.json
+/home/erica/Projetos/DotnetCourse/src/Api.Domain/bin/Debug/net5.0/Domain.dll
+/home/erica/Projetos/DotnetCourse/src/Api.Domain/bin/Debug/net5.0/ref/Domain.dll
+/home/erica/Projetos/DotnetCourse/src/Api.Domain/bin/Debug/net5.0/Domain.pdb
+/home/erica/Projetos/DotnetCourse/src/Api.Domain/obj/Debug/net5.0/Domain.csproj.AssemblyReference.cache
+/home/erica/Projetos/DotnetCourse/src/Api.Domain/obj/Debug/net5.0/Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/erica/Projetos/DotnetCourse/src/Api.Domain/obj/Debug/net5.0/Domain.AssemblyInfoInputs.cache
+/home/erica/Projetos/DotnetCourse/src/Api.Domain/obj/Debug/net5.0/Domain.AssemblyInfo.cs
+/home/erica/Projetos/DotnetCourse/src/Api.Domain/obj/Debug/net5.0/Domain.csproj.CoreCompileInputs.cache
+/home/erica/Projetos/DotnetCourse/src/Api.Domain/obj/Debug/net5.0/Domain.dll
+/home/erica/Projetos/DotnetCourse/src/Api.Domain/obj/Debug/net5.0/ref/Domain.dll
+/home/erica/Projetos/DotnetCourse/src/Api.Domain/obj/Debug/net5.0/Domain.pdb
