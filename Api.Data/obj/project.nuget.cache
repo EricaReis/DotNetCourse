@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "WU/MmQqGdLGRxyoV8suircHXcrnN59Pn0Ymjb5XqEjZ9Et904BqPybUHKAL7hkxeKWF8XLnMZKgM4v/qKxIhow==",
+  "dgSpecHash": "bfrjjcLe+aRUPc8LWsUb9bYhSmRAjURRJE2XUP1S98dgLAdlZqGOCw706AZIjeC6iow7QETUSg15z5ilTwl2XA==",
   "success": true,
   "projectFilePath": "/home/erica/Projetos/DotnetCourse/src/Api.Data/Data.csproj",
   "expectedPackageFiles": [
@@ -36,7 +36,7 @@
     "/home/erica/.nuget/packages/microsoft.win32.systemevents/4.7.0/microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "/home/erica/.nuget/packages/mysqlconnector/0.61.0/mysqlconnector.0.61.0.nupkg.sha512",
     "/home/erica/.nuget/packages/newtonsoft.json/11.0.2/newtonsoft.json.11.0.2.nupkg.sha512",
-    "/home/erica/.nuget/packages/pomelo.entityframeworkcore.mysql/3.0.1/pomelo.entityframeworkcore.mysql.3.0.1.nupkg.sha512",
+    "/home/erica/.nuget/packages/pomelo.entityframeworkcore.mysql/3.1.1/pomelo.entityframeworkcore.mysql.3.1.1.nupkg.sha512",
     "/home/erica/.nuget/packages/pomelo.jsonobject/2.2.1/pomelo.jsonobject.2.2.1.nupkg.sha512",
     "/home/erica/.nuget/packages/runtime.native.system/4.3.0/runtime.native.system.4.3.0.nupkg.sha512",
     "/home/erica/.nuget/packages/system.collections/4.3.0/system.collections.4.3.0.nupkg.sha512",
