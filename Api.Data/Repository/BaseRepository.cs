@@ -10,6 +10,7 @@ namespace Api.Data.Repository
 {
     public class BaseRepository<T> : IRepository<T> where T : BaseEntity
     {
+
         protected readonly MyContext _context;
         private DbSet<T> _dataset;
         public BaseRepository(MyContext context)
@@ -23,9 +24,7 @@ namespace Api.Data.Repository
             {
                 var result = await _dataset.SingleOrDefaultAsync(p => p.Id.Equals(id));
                 if (result == null)
-                {
                     return false;
-                }
 
                 _dataset.Remove(result);
                 await _context.SaveChangesAsync();
@@ -36,11 +35,6 @@ namespace Api.Data.Repository
             {
                 throw ex;
             }
-        }
-
-        public async Task<bool> ExistAsync(Guid id)
-        {
-            return await _dataset.AnyAsync(p => p.Id.Equals(id));
         }
 
         public async Task<T> InsertAsync(T item)
@@ -56,7 +50,6 @@ namespace Api.Data.Repository
                 _dataset.Add(item);
 
                 await _context.SaveChangesAsync();
-
             }
             catch (Exception ex)
             {
@@ -64,6 +57,11 @@ namespace Api.Data.Repository
             }
 
             return item;
+        }
+
+        public async Task<bool> ExistAsync(Guid id)
+        {
+            return await _dataset.AnyAsync(p => p.Id.Equals(id));
         }
 
         public async Task<T> SelectAsync(Guid id)
@@ -74,6 +72,7 @@ namespace Api.Data.Repository
             }
             catch (Exception ex)
             {
+
                 throw ex;
             }
         }
@@ -96,16 +95,13 @@ namespace Api.Data.Repository
             {
                 var result = await _dataset.SingleOrDefaultAsync(p => p.Id.Equals(item.Id));
                 if (result == null)
-                {
                     return null;
-                }
 
                 item.UpdateAt = DateTime.UtcNow;
                 item.CreateAt = result.CreateAt;
 
                 _context.Entry(result).CurrentValues.SetValues(item);
                 await _context.SaveChangesAsync();
-
             }
             catch (Exception ex)
             {
