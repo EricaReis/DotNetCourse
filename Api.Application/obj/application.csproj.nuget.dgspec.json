@@ -17,14 +17,14 @@
           "/home/erica/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "netcoreapp5.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
-            "targetAlias": "net5.0",
+            "targetAlias": "netcoreapp5.0",
             "projectReferences": {
               "/home/erica/Projetos/DotnetCourse/src/Api.CrossCutting/CrossCutting.csproj": {
                 "projectPath": "/home/erica/Projetos/DotnetCourse/src/Api.CrossCutting/CrossCutting.csproj"
@@ -46,7 +46,7 @@
       },
       "frameworks": {
         "net5.0": {
-          "targetAlias": "net5.0",
+          "targetAlias": "netcoreapp5.0",
           "dependencies": {
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -121,7 +121,7 @@
           "dependencies": {
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
-              "version": "[8.0.1, )"
+              "version": "[8.1.1, )"
             }
           },
           "imports": [

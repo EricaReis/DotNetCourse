@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "DQE0j/dyN8NvHuMN3lrkcskDyuVWi57At88cDfmnqYpJ63qIRuXjSqKa8x3OWa7WWCTYTJyPJGYLSwJ9cfu85g==",
+  "dgSpecHash": "+P5MwBKn5XTvTdHjxz/tMo1E225OZqZ5/y21neK5MCiw8nI4H39qXByeTNdi/8ZNSlg3gOhTXuvK/l5IV180kw==",
   "success": true,
   "projectFilePath": "/home/erica/Projetos/DotnetCourse/src/Api.CrossCutting/CrossCutting.csproj",
   "expectedPackageFiles": [
-    "/home/erica/.nuget/packages/automapper/10.0.0/automapper.10.0.0.nupkg.sha512",
-    "/home/erica/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/8.0.1/automapper.extensions.microsoft.dependencyinjection.8.0.1.nupkg.sha512",
+    "/home/erica/.nuget/packages/automapper/10.1.1/automapper.10.1.1.nupkg.sha512",
+    "/home/erica/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/8.1.1/automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
     "/home/erica/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
     "/home/erica/.nuget/packages/microsoft.data.sqlclient/2.0.1/microsoft.data.sqlclient.2.0.1.nupkg.sha512",
     "/home/erica/.nuget/packages/microsoft.data.sqlclient.sni.runtime/2.0.1/microsoft.data.sqlclient.sni.runtime.2.0.1.nupkg.sha512",

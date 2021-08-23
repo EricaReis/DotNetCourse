@@ -1,4 +1,5 @@
 using System;
+using Api.Domain;
 using Api.CrossCutting.DependencyInjection;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -34,8 +35,8 @@ namespace application
                     TermsOfService = new Uri("http://www.mfrinfo.com.br"),
                     Contact = new OpenApiContact
                     {
-                        Name = "Marcos Fabricio Rosa",
-                        Email = "mfr@mail.com",
+                        Name = "Érica Beatriz Reis",
+                        Email = "ericabeatrizdosreis@gmail.com",
                         Url = new Uri("http://www.mfrinfo.com.br")
                     },
                     License = new OpenApiLicense

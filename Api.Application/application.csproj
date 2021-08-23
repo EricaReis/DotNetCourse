@@ -1,13 +1,5 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
-  <PropertyGroup>
-    <TargetFramework>net5.0</TargetFramework>
-  </PropertyGroup>
-
-  <ItemGroup>
-    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
-  </ItemGroup>
-
   <ItemGroup>
     <ProjectReference Include="..\Api.Domain\Domain.csproj" />
     <ProjectReference Include="..\Api.Service\Service.csproj" />
@@ -15,7 +7,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Api.Domain\Domain.csproj" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
   </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp5.0</TargetFramework>
+  </PropertyGroup>
 
 </Project>
