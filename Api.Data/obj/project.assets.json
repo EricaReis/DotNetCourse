@@ -429,7 +429,7 @@
           }
         }
       },
-      "MySqlConnector/0.61.0": {
+      "MySqlConnector/0.69.10": {
         "type": "package",
         "compile": {
           "lib/netcoreapp3.0/MySqlConnector.dll": {}
@@ -447,11 +447,11 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
-      "Pomelo.EntityFrameworkCore.MySql/3.1.1": {
+      "Pomelo.EntityFrameworkCore.MySql/3.2.6": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.Relational": "3.1.0",
-          "MySqlConnector": "0.61.0",
+          "Microsoft.EntityFrameworkCore.Relational": "[3.1.15, 5.0.0)",
+          "MySqlConnector": "[0.69.10, 1.0.0)",
           "Pomelo.JsonObject": "2.2.1"
         },
         "compile": {
@@ -2175,10 +2175,10 @@
         "version.txt"
       ]
     },
-    "MySqlConnector/0.61.0": {
-      "sha512": "E01yibVzCkVOmhNsUb+B4amjQKfKFlGiR1huNd6Q8aTCqBrACo0I3JMKvJBMpZfYhAsR8bqB9496PwcGpr+LuQ==",
+    "MySqlConnector/0.69.10": {
+      "sha512": "flikhWc6q1gZE4l1PujXLnoZxthf/DqKo43y8x5Cw7/iaivjVYAHHhlr3/t6i8GImi/dbxP4zntp5J/4EVFcbw==",
       "type": "package",
-      "path": "mysqlconnector/0.61.0",
+      "path": "mysqlconnector/0.69.10",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2199,7 +2199,7 @@
         "lib/netstandard2.1/MySqlConnector.dll",
         "lib/netstandard2.1/MySqlConnector.xml",
         "logo.png",
-        "mysqlconnector.0.61.0.nupkg.sha512",
+        "mysqlconnector.0.69.10.nupkg.sha512",
         "mysqlconnector.nuspec"
       ]
     },
@@ -2233,16 +2233,17 @@
         "newtonsoft.json.nuspec"
       ]
     },
-    "Pomelo.EntityFrameworkCore.MySql/3.1.1": {
-      "sha512": "DYMsaJe/lKoaPGjB0ACnP+h5FeaJC+07f83FewBulkqfkUvc7m97PECX0OUHSTT+qEF0EOmJ7HQR0dltSCDyPQ==",
+    "Pomelo.EntityFrameworkCore.MySql/3.2.6": {
+      "sha512": "GYDk5rJSBJLpnT+Km6f4+7P928q2CrtlagpXfPchhEXju6tu6PLoWkNmP1C0Qo1NWe4Srmot1jwUNSYNKdC7gg==",
       "type": "package",
-      "path": "pomelo.entityframeworkcore.mysql/3.1.1",
+      "path": "pomelo.entityframeworkcore.mysql/3.2.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "icon.png",
         "lib/netstandard2.0/Pomelo.EntityFrameworkCore.MySql.dll",
-        "pomelo.entityframeworkcore.mysql.3.1.1.nupkg.sha512",
+        "lib/netstandard2.0/Pomelo.EntityFrameworkCore.MySql.xml",
+        "pomelo.entityframeworkcore.mysql.3.2.6.nupkg.sha512",
         "pomelo.entityframeworkcore.mysql.nuspec"
       ]
     },
@@ -5506,9 +5507,10 @@
     "net5.0": [
       "Domain >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 5.0.0",
+      "Microsoft.EntityFrameworkCore.Relational >= 5.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.0",
       "Microsoft.EntityFrameworkCore.Tools >= 5.0.0",
-      "Pomelo.EntityFrameworkCore.MySql >= 3.1.1"
+      "Pomelo.EntityFrameworkCore.MySql >= 3.2.6"
     ]
   },
   "packageFolders": {
@@ -5527,14 +5529,14 @@
         "/home/erica/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
-        "netcoreapp5.0"
+        "net5.0"
       ],
       "sources": {
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net5.0": {
-          "targetAlias": "netcoreapp5.0",
+          "targetAlias": "net5.0",
           "projectReferences": {
             "/home/erica/Projetos/DotnetCourse/src/Api.Domain/Domain.csproj": {
               "projectPath": "/home/erica/Projetos/DotnetCourse/src/Api.Domain/Domain.csproj"
@@ -5550,11 +5552,15 @@
     },
     "frameworks": {
       "net5.0": {
-        "targetAlias": "netcoreapp5.0",
+        "targetAlias": "net5.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Design": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers",
             "suppressParent": "All",
+            "target": "Package",
+            "version": "[5.0.0, )"
+          },
+          "Microsoft.EntityFrameworkCore.Relational": {
             "target": "Package",
             "version": "[5.0.0, )"
           },
@@ -5570,7 +5576,7 @@
           },
           "Pomelo.EntityFrameworkCore.MySql": {
             "target": "Package",
-            "version": "[3.1.1, )"
+            "version": "[3.2.6, )"
           }
         },
         "imports": [
@@ -5591,5 +5597,17 @@
         "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.302/RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1608",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Versão detectada do pacote fora da restrição de dependência: Pomelo.EntityFrameworkCore.MySql 3.2.6 requer Microsoft.EntityFrameworkCore.Relational (>= 3.1.15 && < 5.0.0), mas a versão Microsoft.EntityFrameworkCore.Relational 5.0.0 foi resolvida.",
+      "libraryId": "Microsoft.EntityFrameworkCore.Relational",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    }
+  ]
 }
