@@ -7,12 +7,12 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Api.Application.Controllers
 {
-
+    //http://localhost:5000/api/users
     [Route("api/[controller]")]
     [ApiController]
     public class UsersController : ControllerBase
     {
-        private IUserService _service;
+        public IUserService _service { get; set; }
         public UsersController(IUserService service)
         {
             _service = service;
@@ -23,17 +23,14 @@ namespace Api.Application.Controllers
         {
             if (!ModelState.IsValid)
             {
-                return BadRequest(ModelState); //400 bad request - solicitação inválida
+                return BadRequest(ModelState);  // 400 Bad Request - Solicitação Inválida
             }
-
             try
             {
                 return Ok(await _service.GetAll());
-
             }
             catch (ArgumentException e)
             {
-
                 return StatusCode((int)HttpStatusCode.InternalServerError, e.Message);
             }
         }
@@ -46,7 +43,6 @@ namespace Api.Application.Controllers
             {
                 return BadRequest(ModelState);
             }
-
             try
             {
                 return Ok(await _service.Get(id));
@@ -55,7 +51,6 @@ namespace Api.Application.Controllers
             {
                 return StatusCode((int)HttpStatusCode.InternalServerError, e.Message);
             }
-
         }
 
         [HttpPost]
@@ -65,10 +60,8 @@ namespace Api.Application.Controllers
             {
                 return BadRequest(ModelState);
             }
-
             try
             {
-
                 var result = await _service.Post(user);
                 if (result != null)
                 {
@@ -78,7 +71,6 @@ namespace Api.Application.Controllers
                 {
                     return BadRequest();
                 }
-
             }
             catch (ArgumentException e)
             {
@@ -93,7 +85,6 @@ namespace Api.Application.Controllers
             {
                 return BadRequest(ModelState);
             }
-
             try
             {
                 var result = await _service.Put(user);
@@ -105,7 +96,6 @@ namespace Api.Application.Controllers
                 {
                     return BadRequest();
                 }
-
             }
             catch (ArgumentException e)
             {
@@ -120,7 +110,6 @@ namespace Api.Application.Controllers
             {
                 return BadRequest(ModelState);
             }
-
             try
             {
                 return Ok(await _service.Delete(id));
@@ -129,7 +118,6 @@ namespace Api.Application.Controllers
             {
                 return StatusCode((int)HttpStatusCode.InternalServerError, e.Message);
             }
-
         }
     }
 }

@@ -66,3 +66,5 @@
 /home/erica/Projetos/DotnetCourse/src/Api.Application/bin/Debug/net5.0/CrossCutting.pdb
 /home/erica/Projetos/DotnetCourse/src/Api.Application/bin/Debug/net5.0/Data.pdb
 /home/erica/Projetos/DotnetCourse/src/Api.Application/bin/Debug/net5.0/Service.pdb
+/home/erica/Projetos/DotnetCourse/src/Api.Application/bin/Debug/net5.0/AutoMapper.dll
+/home/erica/Projetos/DotnetCourse/src/Api.Application/bin/Debug/net5.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll

@@ -2,12 +2,10 @@
 /home/erica/Projetos/DotnetCourse/src/Api.Service/bin/Debug/net5.0/Service.dll
 /home/erica/Projetos/DotnetCourse/src/Api.Service/bin/Debug/net5.0/ref/Service.dll
 /home/erica/Projetos/DotnetCourse/src/Api.Service/bin/Debug/net5.0/Service.pdb
-/home/erica/Projetos/DotnetCourse/src/Api.Service/bin/Debug/net5.0/CrossCutting.dll
 /home/erica/Projetos/DotnetCourse/src/Api.Service/bin/Debug/net5.0/Data.dll
 /home/erica/Projetos/DotnetCourse/src/Api.Service/bin/Debug/net5.0/Domain.dll
 /home/erica/Projetos/DotnetCourse/src/Api.Service/bin/Debug/net5.0/Domain.pdb
 /home/erica/Projetos/DotnetCourse/src/Api.Service/bin/Debug/net5.0/Data.pdb
-/home/erica/Projetos/DotnetCourse/src/Api.Service/bin/Debug/net5.0/CrossCutting.pdb
 /home/erica/Projetos/DotnetCourse/src/Api.Service/obj/Debug/net5.0/Service.csproj.AssemblyReference.cache
 /home/erica/Projetos/DotnetCourse/src/Api.Service/obj/Debug/net5.0/Service.GeneratedMSBuildEditorConfig.editorconfig
 /home/erica/Projetos/DotnetCourse/src/Api.Service/obj/Debug/net5.0/Service.AssemblyInfoInputs.cache

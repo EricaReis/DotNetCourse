@@ -1406,16 +1406,6 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "CrossCutting/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
-        "compile": {
-          "bin/placeholder/CrossCutting.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/CrossCutting.dll": {}
-        }
-      },
       "Data/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -5427,11 +5417,6 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
-    "CrossCutting/1.0.0": {
-      "type": "project",
-      "path": "../Api.CrossCutting/CrossCutting.csproj",
-      "msbuildProject": "../Api.CrossCutting/CrossCutting.csproj"
-    },
     "Data/1.0.0": {
       "type": "project",
       "path": "../Api.Data/Data.csproj",
@@ -5445,7 +5430,6 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "CrossCutting >= 1.0.0",
       "Data >= 1.0.0",
       "Domain >= 1.0.0"
     ]
@@ -5475,9 +5459,6 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "/home/erica/Projetos/DotnetCourse/src/Api.CrossCutting/CrossCutting.csproj": {
-              "projectPath": "/home/erica/Projetos/DotnetCourse/src/Api.CrossCutting/CrossCutting.csproj"
-            },
             "/home/erica/Projetos/DotnetCourse/src/Api.Data/Data.csproj": {
               "projectPath": "/home/erica/Projetos/DotnetCourse/src/Api.Data/Data.csproj"
             },

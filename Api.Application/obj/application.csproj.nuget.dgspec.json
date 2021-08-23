@@ -88,15 +88,25 @@
           "/home/erica/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "netcoreapp5.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
-            "targetAlias": "net5.0",
-            "projectReferences": {}
+            "targetAlias": "netcoreapp5.0",
+            "projectReferences": {
+              "/home/erica/Projetos/DotnetCourse/src/Api.Data/Data.csproj": {
+                "projectPath": "/home/erica/Projetos/DotnetCourse/src/Api.Data/Data.csproj"
+              },
+              "/home/erica/Projetos/DotnetCourse/src/Api.Domain/Domain.csproj": {
+                "projectPath": "/home/erica/Projetos/DotnetCourse/src/Api.Domain/Domain.csproj"
+              },
+              "/home/erica/Projetos/DotnetCourse/src/Api.Service/Service.csproj": {
+                "projectPath": "/home/erica/Projetos/DotnetCourse/src/Api.Service/Service.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -107,7 +117,13 @@
       },
       "frameworks": {
         "net5.0": {
-          "targetAlias": "net5.0",
+          "targetAlias": "netcoreapp5.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -279,9 +295,6 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "/home/erica/Projetos/DotnetCourse/src/Api.CrossCutting/CrossCutting.csproj": {
-                "projectPath": "/home/erica/Projetos/DotnetCourse/src/Api.CrossCutting/CrossCutting.csproj"
-              },
               "/home/erica/Projetos/DotnetCourse/src/Api.Data/Data.csproj": {
                 "projectPath": "/home/erica/Projetos/DotnetCourse/src/Api.Data/Data.csproj"
               },
